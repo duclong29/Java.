@@ -2,6 +2,10 @@ package BaiThi;
 
 public class TaskFlight {
     public static void main(String[] args) {
+        Flight f0 = new Flight();
+        f0.display();
+        System.out.println("Number Flight is :" + f0.getNumber());
+        System.out.println("Destination Flight is :" + f0.getDestination());
         Flight f = new Flight(875, "Toronto");
         f.display();
         System.out.println("Number Flight is :" + f.getNumber());
